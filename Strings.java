@@ -23,7 +23,7 @@ class Strings
         char[] charay = {'H', 'e', 'l', 'l', 'o'};
         s2=s2.copyValueOf(charay,0,charay.length);   //Returns a String that represents the characters of the character array
         System.out.println(s2);
-        System.out.println(s.startsWith("H"));   //Checks whether a string ends with the specified character(s)
+        System.out.println(s.startsWith("H"));   //Checks whether a string starts with the specified character(s)
         System.out.println(s.endsWith("lo"));    //Checks whether a string ends with the specified character(s)
         System.out.println(s.equals("Hello"));   //Compares two strings. Returns true if the strings are equal, and false if not
         System.out.println(s.equalsIgnoreCase("hello")); //Compares two strings, ignoring case considerations
